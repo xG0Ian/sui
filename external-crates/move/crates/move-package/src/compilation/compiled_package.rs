@@ -428,6 +428,8 @@ impl CompiledPackage {
                     == resolved_package.resolved_table
     }
 
+    //TODO: xG0Ian issue
+
     pub(crate) fn build_for_driver<W: Write, T>(
         w: &mut W,
         vfs_root: Option<VfsPath>,
